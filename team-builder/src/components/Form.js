@@ -9,7 +9,7 @@ export default function Form (props) {
         return <h3> Fetching your data</h3>
     }
         return (
-        <div className ='Form Big Box '>
+        <div className ='UserCard'>
         <h2> {details.username}</h2>
         <p> Email: {details.email}</p>
         <p> Role: {details.role}</p>
